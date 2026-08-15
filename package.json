@@ -1,0 +1,57 @@
+{
+  "name": "lrc-maker",
+  "version": "0.1.0",
+  "repository": "https://github.com/Kurami32/lrc-maker.git",
+  "author": "Kurami32",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --build && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --build",
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix --cache",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "vue": "^3.5.40",
+    "vue-i18n": "^11.4.8",
+    "vue-router": "^5.2.0"
+  },
+  "overrides": {
+    "@intlify/vue-i18n-extensions": {
+      "vue-i18n": "$vue-i18n"
+    },
+    "@intlify/eslint-plugin-vue-i18n": {
+      "glob": "^13.0.0"
+    }
+  },
+  "devDependencies": {
+    "@intlify/eslint-plugin-vue-i18n": "^4.5.1",
+    "@intlify/unplugin-vue-i18n": "^11.2.5",
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/eslint-config-typescript": "^14.9.0",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^10.7.0",
+    "eslint-plugin-vue": "~10.9.2",
+    "globals": "^17.11.0",
+    "typescript": "~6.0.0",
+    "vite": "^8.1.5",
+    "vite-plugin-checker": "^0.14.5",
+    "vite-plugin-compression2": "^2.5.3",
+    "vite-plugin-vue-devtools": "^8.1.5",
+    "vitest": "^4.1.10",
+    "vue-eslint-parser": "^10.4.1",
+    "vue-tsc": "^3.3.7"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  },
+  "allowScripts": {
+    "esbuild": true
+  }
+}

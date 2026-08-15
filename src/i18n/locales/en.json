@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "editor": "Editor",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "editor": {
+    "title": "Teest",
+    "placeholder": "Testing this thing works lol"
+  },
+  "settings": {
+    "title": "Settings",
+    "placeholder": "Idk"
+  },
+  "about": {
+    "title": "About",
+    "placeholder": "lrc-maker is a lyric sync tool"
+  },
+  "notFound": {
+    "title": "Page not found"
+  }
+}

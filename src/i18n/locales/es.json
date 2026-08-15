@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "editor": "Editor",
+    "settings": "Ajustess",
+    "about": "Sobre esto"
+  },
+  "editor": {
+    "title": "Prueba I guess",
+    "placeholder": "probando si esto funciona"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "placeholder": "No sé"
+  },
+  "about": {
+    "title": "About",
+    "placeholder": "Herramienta para hacer lyrics (and learn more vue, cuz why no?)"
+  },
+  "notFound": {
+    "title": "No se encontró la pagina"
+  }
+}
